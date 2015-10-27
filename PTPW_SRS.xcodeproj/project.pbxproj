@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA777FBA1BDF67A800C0FB21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA777FB91BDF67A800C0FB21 /* main.m */; };
+		DA777FBD1BDF67A800C0FB21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA777FBC1BDF67A800C0FB21 /* AppDelegate.m */; };
+		DA777FC01BDF67A800C0FB21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA777FBF1BDF67A800C0FB21 /* ViewController.m */; };
+		DA777FC31BDF67A800C0FB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA777FC11BDF67A800C0FB21 /* Main.storyboard */; };
+		DA777FC61BDF67A800C0FB21 /* PTPW_SRS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA777FC41BDF67A800C0FB21 /* PTPW_SRS.xcdatamodeld */; };
+		DA777FC81BDF67A800C0FB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA777FC71BDF67A800C0FB21 /* Assets.xcassets */; };
+		DA777FCB1BDF67A800C0FB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA777FC91BDF67A800C0FB21 /* LaunchScreen.storyboard */; };
+		DA777FD61BDF67A900C0FB21 /* PTPW_SRSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA777FD51BDF67A900C0FB21 /* PTPW_SRSTests.m */; };
+		DA777FE11BDF67A900C0FB21 /* PTPW_SRSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA777FE01BDF67A900C0FB21 /* PTPW_SRSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA777FD21BDF67A900C0FB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA777FAD1BDF67A800C0FB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA777FB41BDF67A800C0FB21;
+			remoteInfo = PTPW_SRS;
+		};
+		DA777FDD1BDF67A900C0FB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA777FAD1BDF67A800C0FB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA777FB41BDF67A800C0FB21;
+			remoteInfo = PTPW_SRS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA777FB51BDF67A800C0FB21 /* PTPW_SRS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTPW_SRS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA777FB91BDF67A800C0FB21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA777FBB1BDF67A800C0FB21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA777FBC1BDF67A800C0FB21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA777FBE1BDF67A800C0FB21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA777FBF1BDF67A800C0FB21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA777FC21BDF67A800C0FB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA777FC51BDF67A800C0FB21 /* PTPW_SRS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PTPW_SRS.xcdatamodel; sourceTree = "<group>"; };
+		DA777FC71BDF67A800C0FB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA777FCA1BDF67A800C0FB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA777FCC1BDF67A800C0FB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA777FD11BDF67A900C0FB21 /* PTPW_SRSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTPW_SRSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA777FD51BDF67A900C0FB21 /* PTPW_SRSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPW_SRSTests.m; sourceTree = "<group>"; };
+		DA777FD71BDF67A900C0FB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA777FDC1BDF67A900C0FB21 /* PTPW_SRSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTPW_SRSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA777FE01BDF67A900C0FB21 /* PTPW_SRSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPW_SRSUITests.m; sourceTree = "<group>"; };
+		DA777FE21BDF67A900C0FB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA777FB21BDF67A800C0FB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA777FCE1BDF67A900C0FB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA777FD91BDF67A900C0FB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA777FAC1BDF67A800C0FB21 = {
+			isa = PBXGroup;
+			children = (
+				DA777FB71BDF67A800C0FB21 /* PTPW_SRS */,
+				DA777FD41BDF67A900C0FB21 /* PTPW_SRSTests */,
+				DA777FDF1BDF67A900C0FB21 /* PTPW_SRSUITests */,
+				DA777FB61BDF67A800C0FB21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA777FB61BDF67A800C0FB21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA777FB51BDF67A800C0FB21 /* PTPW_SRS.app */,
+				DA777FD11BDF67A900C0FB21 /* PTPW_SRSTests.xctest */,
+				DA777FDC1BDF67A900C0FB21 /* PTPW_SRSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA777FB71BDF67A800C0FB21 /* PTPW_SRS */ = {
+			isa = PBXGroup;
+			children = (
+				DA777FBB1BDF67A800C0FB21 /* AppDelegate.h */,
+				DA777FBC1BDF67A800C0FB21 /* AppDelegate.m */,
+				DA777FBE1BDF67A800C0FB21 /* ViewController.h */,
+				DA777FBF1BDF67A800C0FB21 /* ViewController.m */,
+				DA777FC11BDF67A800C0FB21 /* Main.storyboard */,
+				DA777FC71BDF67A800C0FB21 /* Assets.xcassets */,
+				DA777FC91BDF67A800C0FB21 /* LaunchScreen.storyboard */,
+				DA777FCC1BDF67A800C0FB21 /* Info.plist */,
+				DA777FC41BDF67A800C0FB21 /* PTPW_SRS.xcdatamodeld */,
+				DA777FB81BDF67A800C0FB21 /* Supporting Files */,
+			);
+			path = PTPW_SRS;
+			sourceTree = "<group>";
+		};
+		DA777FB81BDF67A800C0FB21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA777FB91BDF67A800C0FB21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA777FD41BDF67A900C0FB21 /* PTPW_SRSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA777FD51BDF67A900C0FB21 /* PTPW_SRSTests.m */,
+				DA777FD71BDF67A900C0FB21 /* Info.plist */,
+			);
+			path = PTPW_SRSTests;
+			sourceTree = "<group>";
+		};
+		DA777FDF1BDF67A900C0FB21 /* PTPW_SRSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA777FE01BDF67A900C0FB21 /* PTPW_SRSUITests.m */,
+				DA777FE21BDF67A900C0FB21 /* Info.plist */,
+			);
+			path = PTPW_SRSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA777FB41BDF67A800C0FB21 /* PTPW_SRS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA777FE51BDF67A900C0FB21 /* Build configuration list for PBXNativeTarget "PTPW_SRS" */;
+			buildPhases = (
+				DA777FB11BDF67A800C0FB21 /* Sources */,
+				DA777FB21BDF67A800C0FB21 /* Frameworks */,
+				DA777FB31BDF67A800C0FB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTPW_SRS;
+			productName = PTPW_SRS;
+			productReference = DA777FB51BDF67A800C0FB21 /* PTPW_SRS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA777FD01BDF67A900C0FB21 /* PTPW_SRSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA777FE81BDF67A900C0FB21 /* Build configuration list for PBXNativeTarget "PTPW_SRSTests" */;
+			buildPhases = (
+				DA777FCD1BDF67A900C0FB21 /* Sources */,
+				DA777FCE1BDF67A900C0FB21 /* Frameworks */,
+				DA777FCF1BDF67A900C0FB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA777FD31BDF67A900C0FB21 /* PBXTargetDependency */,
+			);
+			name = PTPW_SRSTests;
+			productName = PTPW_SRSTests;
+			productReference = DA777FD11BDF67A900C0FB21 /* PTPW_SRSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA777FDB1BDF67A900C0FB21 /* PTPW_SRSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA777FEB1BDF67A900C0FB21 /* Build configuration list for PBXNativeTarget "PTPW_SRSUITests" */;
+			buildPhases = (
+				DA777FD81BDF67A900C0FB21 /* Sources */,
+				DA777FD91BDF67A900C0FB21 /* Frameworks */,
+				DA777FDA1BDF67A900C0FB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA777FDE1BDF67A900C0FB21 /* PBXTargetDependency */,
+			);
+			name = PTPW_SRSUITests;
+			productName = PTPW_SRSUITests;
+			productReference = DA777FDC1BDF67A900C0FB21 /* PTPW_SRSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA777FAD1BDF67A800C0FB21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xrszg;
+				TargetAttributes = {
+					DA777FB41BDF67A800C0FB21 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DA777FD01BDF67A900C0FB21 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DA777FB41BDF67A800C0FB21;
+					};
+					DA777FDB1BDF67A900C0FB21 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DA777FB41BDF67A800C0FB21;
+					};
+				};
+			};
+			buildConfigurationList = DA777FB01BDF67A800C0FB21 /* Build configuration list for PBXProject "PTPW_SRS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA777FAC1BDF67A800C0FB21;
+			productRefGroup = DA777FB61BDF67A800C0FB21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA777FB41BDF67A800C0FB21 /* PTPW_SRS */,
+				DA777FD01BDF67A900C0FB21 /* PTPW_SRSTests */,
+				DA777FDB1BDF67A900C0FB21 /* PTPW_SRSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA777FB31BDF67A800C0FB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA777FCB1BDF67A800C0FB21 /* LaunchScreen.storyboard in Resources */,
+				DA777FC81BDF67A800C0FB21 /* Assets.xcassets in Resources */,
+				DA777FC31BDF67A800C0FB21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA777FCF1BDF67A900C0FB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA777FDA1BDF67A900C0FB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA777FB11BDF67A800C0FB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA777FC01BDF67A800C0FB21 /* ViewController.m in Sources */,
+				DA777FBD1BDF67A800C0FB21 /* AppDelegate.m in Sources */,
+				DA777FBA1BDF67A800C0FB21 /* main.m in Sources */,
+				DA777FC61BDF67A800C0FB21 /* PTPW_SRS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA777FCD1BDF67A900C0FB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA777FD61BDF67A900C0FB21 /* PTPW_SRSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA777FD81BDF67A900C0FB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA777FE11BDF67A900C0FB21 /* PTPW_SRSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA777FD31BDF67A900C0FB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA777FB41BDF67A800C0FB21 /* PTPW_SRS */;
+			targetProxy = DA777FD21BDF67A900C0FB21 /* PBXContainerItemProxy */;
+		};
+		DA777FDE1BDF67A900C0FB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA777FB41BDF67A800C0FB21 /* PTPW_SRS */;
+			targetProxy = DA777FDD1BDF67A900C0FB21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA777FC11BDF67A800C0FB21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA777FC21BDF67A800C0FB21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA777FC91BDF67A800C0FB21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA777FCA1BDF67A800C0FB21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA777FE31BDF67A900C0FB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA777FE41BDF67A900C0FB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA777FE61BDF67A900C0FB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PTPW_SRS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrszg.PTPW-SRS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA777FE71BDF67A900C0FB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PTPW_SRS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrszg.PTPW-SRS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA777FE91BDF67A900C0FB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PTPW_SRSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrszg.PTPW-SRSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PTPW_SRS.app/PTPW_SRS";
+			};
+			name = Debug;
+		};
+		DA777FEA1BDF67A900C0FB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PTPW_SRSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrszg.PTPW-SRSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PTPW_SRS.app/PTPW_SRS";
+			};
+			name = Release;
+		};
+		DA777FEC1BDF67A900C0FB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PTPW_SRSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrszg.PTPW-SRSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PTPW_SRS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA777FED1BDF67A900C0FB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PTPW_SRSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrszg.PTPW-SRSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PTPW_SRS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA777FB01BDF67A800C0FB21 /* Build configuration list for PBXProject "PTPW_SRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA777FE31BDF67A900C0FB21 /* Debug */,
+				DA777FE41BDF67A900C0FB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA777FE51BDF67A900C0FB21 /* Build configuration list for PBXNativeTarget "PTPW_SRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA777FE61BDF67A900C0FB21 /* Debug */,
+				DA777FE71BDF67A900C0FB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA777FE81BDF67A900C0FB21 /* Build configuration list for PBXNativeTarget "PTPW_SRSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA777FE91BDF67A900C0FB21 /* Debug */,
+				DA777FEA1BDF67A900C0FB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA777FEB1BDF67A900C0FB21 /* Build configuration list for PBXNativeTarget "PTPW_SRSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA777FEC1BDF67A900C0FB21 /* Debug */,
+				DA777FED1BDF67A900C0FB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA777FC41BDF67A800C0FB21 /* PTPW_SRS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA777FC51BDF67A800C0FB21 /* PTPW_SRS.xcdatamodel */,
+			);
+			currentVersion = DA777FC51BDF67A800C0FB21 /* PTPW_SRS.xcdatamodel */;
+			path = PTPW_SRS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA777FAD1BDF67A800C0FB21 /* Project object */;
+}
